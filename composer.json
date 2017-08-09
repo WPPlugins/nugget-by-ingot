@@ -1,0 +1,39 @@
+{
+    "name": "ingot/nugget",
+    "description": "A tiny nugget of Ingot - A/B testing made easy for WordPress - Do less, convert more.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress"
+    ],
+    "minimum-stability" : "dev",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Josh Pollock",
+            "homepage": "http://JoshPress.net",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+      {
+        "type":"composer",
+        "url":"http://wpackagist.org"
+      },
+      {
+        "type":"git",
+        "url":"https://github.com/ingothq/multiarmedbandit"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/ingothq/wordpress-sdk"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/ingothq/ingot-core"
+      }
+    ],
+    "require": {
+        "calderawp/dismissible-notice": "dev-master",
+        "ingot/ingot-core" : "*"
+    }
+}

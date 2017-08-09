@@ -1,0 +1,421 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "0d061bff8273df2f4a45287209acfb769a01a02d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/0d061bff8273df2f4a45287209acfb769a01a02d",
+            "reference": "0d061bff8273df2f4a45287209acfb769a01a02d",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-03-11 13:58:36",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "Mautic",
+            "OXID",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "calderawp/dismissible-notice",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CalderaWP/dismissible_notice.git",
+            "reference": "26a0a00cced207464eb005d2eeb3ab93727363d3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CalderaWP/dismissible_notice/zipball/26a0a00cced207464eb005d2eeb3ab93727363d3",
+            "reference": "26a0a00cced207464eb005d2eeb3ab93727363d3",
+            "shasum": ""
+        },
+        "time": "2015-08-24 20:27:16",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL v2+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "email": "Josh@JoshPress.net"
+            }
+        ],
+        "description": "Creates a dismissible--via AJAX--admin nag."
+    },
+    {
+        "name": "freemius/wordpress-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ingothq/wordpress-sdk",
+            "reference": "585120ca55f1b45759567b82251a9de33bded0bd"
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2016-03-12 18:36:15",
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "Freemius WordPress SDK",
+        "homepage": "https://freemius.com",
+        "keywords": [
+            "freemius",
+            "plugin",
+            "sdk",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "blainesch/prettyarray",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/blainesch/prettyArray.git",
+            "reference": "2c18672e45a0ed9b67a0e321213c4055d224a334"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/blainesch/prettyArray/zipball/2c18672e45a0ed9b67a0e321213c4055d224a334",
+            "reference": "2c18672e45a0ed9b67a0e321213c4055d224a334",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2015-03-12 15:16:37",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "prettyArray": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "The BSD License"
+        ],
+        "authors": [
+            {
+                "name": "Blaine Schmeisser",
+                "email": "BlaineSch@gmail.com",
+                "homepage": "https://github.com/BlaineSch"
+            }
+        ],
+        "description": "Manipulate arrays similar to Ruby.",
+        "homepage": "https://github.com/BlaineSch/prettyArray",
+        "keywords": [
+            "array",
+            "enumerator",
+            "ruby",
+            "underscore"
+        ]
+    },
+    {
+        "name": "calderawp/caldera-modals",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CalderaWP/caldera-modals.git",
+            "reference": "0b940dbf689d37e49b762158e61483f7bcf0e475"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CalderaWP/caldera-modals/zipball/0b940dbf689d37e49b762158e61483f7bcf0e475",
+            "reference": "0b940dbf689d37e49b762158e61483f7bcf0e475",
+            "shasum": ""
+        },
+        "time": "2015-05-23 01:01:32",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "David Cramer",
+                "homepage": "http://cramer.co.za",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "Simple modals from an HTML element.",
+        "keywords": [
+            "caldera",
+            "modals"
+        ]
+    },
+    {
+        "name": "jaybizzle/crawler-detect",
+        "version": "v1.1.7",
+        "version_normalized": "1.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+            "reference": "c6890965d87cc1880a35d4fd4819006b03e8aadf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/c6890965d87cc1880a35d4fd4819006b03e8aadf",
+            "reference": "c6890965d87cc1880a35d4fd4819006b03e8aadf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-03-08 20:23:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Jaybizzle\\CrawlerDetect\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Beech",
+                "email": "mbeech@mark-beech.co.uk",
+                "role": "Developer"
+            }
+        ],
+        "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+        "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+        "keywords": [
+            "crawler",
+            "crawler detect",
+            "crawler detector",
+            "php crawler detect"
+        ]
+    },
+    {
+        "name": "oefenweb/statistics",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Oefenweb/php-statistics.git",
+            "reference": "4bb12dedb9e9ec16ce1f2bc1f7124a009e62f936"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Oefenweb/php-statistics/zipball/4bb12dedb9e9ec16ce1f2bc1f7124a009e62f936",
+            "reference": "4bb12dedb9e9ec16ce1f2bc1f7124a009e62f936",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "php": ">=5.3.10"
+        },
+        "time": "2015-06-10 09:52:35",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Oefenweb\\Statistics\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oefenweb.nl BV team",
+                "homepage": "https://github.com/Oefenweb/php-statistics/contributors"
+            }
+        ],
+        "description": "Statistics library for PHP",
+        "homepage": "http://github.com/Oefenweb/php-statistics",
+        "keywords": [
+            "statistics"
+        ]
+    },
+    {
+        "name": "ingot/mabandit",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ingothq/multiarmedbandit",
+            "reference": "0a3afc8c10ef90c18e8a0eaa3b86d9223fd27703"
+        },
+        "require": {
+            "blainesch/prettyarray": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.3",
+            "psy/psysh": "dev-master"
+        },
+        "time": "2016-01-16 20:02:03",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "MaBandit\\": "src/MaBandit",
+                "MaBandit\\Test\\": "test/MaBandit"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Brian Zeligson",
+                "email": "brian.zeligson@gmail.com",
+                "role": "Original Developer"
+            },
+            {
+                "name": "Josh Pollock",
+                "email": "Josh@JoshPress.net",
+                "role": "fork developer"
+            }
+        ],
+        "description": "Implements the Multi Armed Bandit algorithm"
+    },
+    {
+        "name": "ingot/ingot-core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ingothq/ingot-core",
+            "reference": "dc41b411acc433440edd59af6a72f543f0f5ee0d"
+        },
+        "require": {
+            "blainesch/prettyarray": "dev-master",
+            "calderawp/caldera-modals": "^1.0",
+            "freemius/wordpress-sdk": "dev-master",
+            "ingot/mabandit": "*",
+            "jaybizzle/crawler-detect": "1.*",
+            "oefenweb/statistics": "dev-master"
+        },
+        "require-dev": {
+            "10up/wp_mock": "dev-master",
+            "phpunit/php-invoker": "1.1.3",
+            "phpunit/phpunit": "3.7.31",
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "time": "2016-03-13 01:08:30",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "ingot\\": "classes"
+            }
+        },
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josh Pollock",
+                "homepage": "http://JoshPress.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Most of Ingot",
+        "keywords": [
+            "wordpress"
+        ]
+    }
+]
